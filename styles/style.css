@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.container-task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.container-task-item p{
+    font-weight: bold;
+}
+
+.container-task-item p:hover {
+    cursor: pointer;
+}
+
